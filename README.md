@@ -13,4 +13,6 @@ uv run python scripts/generate_rules_md.py
 | [led-remarks-rules.md](led-remarks-rules.md) | `reconciliation_led_rules.py` |
 | [ledger-n-type-rules.md](ledger-n-type-rules.md) | `ledger_n_type_rules.py` |
 
-CSVs in the parent [rules](../) folder mirror the same logic for reference.
+| [action-needed-rules.csv](../action-needed-rules.csv) | `reconciliation_rules.py` |
+
+Other CSVs in the parent [rules](../) folder are maintained manually.
