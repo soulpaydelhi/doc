@@ -1,7 +1,7 @@
 # Ledger N Type rules
 
 Rules are evaluated **top to bottom**; the **first matching row wins**.
-Source: [`ledger_n_type_rules.py`](../../ledger_n_type_rules.py). See also [rules README](../README.md).
+Source: [`ledger/n_type_rules.py`](../../../../ledger/n_type_rules.py). See also [rules README](../../README.md).
 
 | Rule | Code behavior |
 | --- | --- |

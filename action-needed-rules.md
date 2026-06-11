@@ -1,7 +1,7 @@
 # Action Needed rules
 
 Rules are evaluated **top to bottom**; the **first matching row wins**.
-Source: [`reconciliation_rules.py`](../../reconciliation_rules.py). See also [rules README](../README.md).
+Source: [`reconciliation/vendors/airtel/rules/action_needed.py`](../../../../reconciliation/vendors/airtel/rules/action_needed.py). See also [rules README](../README.md).
 
 | rule_order | v_status | soul_status | status_after | action_needed | remark |
 | --- | --- | --- | --- | --- | --- |

@@ -1,7 +1,7 @@
 # Cr/Dr Status rules
 
 Rules are evaluated **top to bottom**; the **first matching row wins**.
-Source: [`reconciliation_cr_dr_rules.py`](../../reconciliation_cr_dr_rules.py). See also [rules README](../README.md).
+Source: [`reconciliation/vendors/airtel/rules/cr_dr_status.py`](../../../../reconciliation/vendors/airtel/rules/cr_dr_status.py). See also [rules README](../README.md).
 
 | rule_order | cr | dr | remarks | status |
 | --- | --- | --- | --- | --- |

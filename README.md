@@ -1,18 +1,18 @@
 # Rule tables (markdown)
 
-Generated from Python rule modules. Regenerate after rule changes:
+Generated from Python rule modules for vendor **airtel**. Regenerate after rule changes:
 
 ```bash
-uv run python scripts/generate_rules_md.py
+uv run python scripts/generate_rules_md.py --vendor airtel
 ```
 
 | Markdown | Module |
 |----------|--------|
-| [action-needed-rules.md](action-needed-rules.md) | `reconciliation_rules.py` |
-| [cr-dr-status-rules.md](cr-dr-status-rules.md) | `reconciliation_cr_dr_rules.py` |
-| [led-remarks-rules.md](led-remarks-rules.md) | `reconciliation_led_rules.py` |
-| [ledger-n-type-rules.md](ledger-n-type-rules.md) | `ledger_n_type_rules.py` |
+| [action-needed-rules.md](action-needed-rules.md) | `reconciliation/vendors/airtel/rules/action_needed.py` |
+| [cr-dr-status-rules.md](cr-dr-status-rules.md) | `reconciliation/vendors/airtel/rules/cr_dr_status.py` |
+| [led-remarks-rules.md](led-remarks-rules.md) | `reconciliation/vendors/airtel/rules/led_remarks.py` |
+| [ledger-n-type-rules.md](ledger-n-type-rules.md) | `ledger/n_type_rules.py` |
 
-| [action-needed-rules.csv](../action-needed-rules.csv) | `reconciliation_rules.py` |
+| [action-needed-rules.csv](../action-needed-rules.csv) | `reconciliation/vendors/airtel/rules/action_needed.py` |
 
-Other CSVs in the parent [rules](../) folder are maintained manually.
+Other CSVs in the parent vendor folder are maintained manually.
