@@ -8,6 +8,6 @@ uv run python scripts/generate_rules_md.py --ledger-only
 
 | Markdown | Module |
 |----------|--------|
-| [ledger-n-type-rules.md](ledger-n-type-rules.md) | `ledger/n_type_rules.py` |
+| [led_ledger_n_type.md](led_ledger_n_type.md) | `ledger/n_type_rules.py` |
 
-| [ledger-n-type-rules.csv](../ledger-n-type-rules.csv) | `ledger/n_type_rules.py` |
+| [led_ledger_n_type.csv](../led_ledger_n_type.csv) | `ledger/n_type_rules.py` |
