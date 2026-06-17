@@ -13,5 +13,5 @@ uv run python scripts/generate_rules_md.py --vendor airtel
 | [led-remarks-rules.md](led-remarks-rules.md) | `reconciliation/vendors/airtel/rules/led_remarks.py` |
 
 | [action-needed-rules.csv](../action-needed-rules.csv) | `reconciliation/vendors/airtel/rules/action_needed.py` |
-
-Other CSVs in the parent vendor folder are maintained manually.
+| [led-remarks-rules.csv](../led-remarks-rules.csv) | `reconciliation/vendors/airtel/rules/led_remarks.py` |
+| [cr-dr-status-rules.csv](../cr-dr-status-rules.csv) | `reconciliation/vendors/airtel/rules/cr_dr_status.py` |
