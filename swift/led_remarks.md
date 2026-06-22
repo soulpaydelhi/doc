@@ -7,7 +7,7 @@ Source: [`reconciliation/vendors/swift/rules/led_remarks.py`](../../../../reconc
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | "tds" in Perticular (case-insensitive) |  |  |  |  | TDS |
 | 2 | "commission" in Perticular (case-insensitive) |  |  |  |  | COMM |
-| 3 |  | REFUND |  |  |  | Refund Okay |
+| 3 |  | REFUND |  |  | 2\|6 | Refund Okay |
 | 4 |  | REFUND | REFUNDPENDING |  |  | Refund Cr Pending |
 | 5 |  | REFUND | REFUNDCOMPLETED\|REFUNDED |  |  | Refund Okay |
 | 6 |  | SUCCESS | SUCCESS |  |  | Success Okay |
