@@ -9,7 +9,7 @@ Source: [`reconciliation/vendors/swift/rules/cr_dr_status.py`](../../../../recon
 | 2 | -- | Dr | refund okay | Refund Cr Pending |
 | 3 | -- | Dr | success okay | Success Debit |
 | 4 | -- | -- | offline | Offline |
-| 5 | -- | -- | not-hits | Not-Hits/Old-Txn |
+| 5 | -- | -- | not-hits\|old-txn | Not-Hits/Old-Txn |
 | 0 | * | * | * | Use Case Not Defined |
 
 **Default:** `rule_order` 0 applies when no rule matches (`Use Case Not Defined`). Remark sets are matched case-insensitively.

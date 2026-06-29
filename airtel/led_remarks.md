@@ -8,7 +8,7 @@ Source: [`reconciliation/vendors/airtel/rules/led_remarks.py`](../../../../recon
 | 1 | -- | -- | 10.01 |  |  | E-kyc |
 | 2 | -- | -- |  |  | startswith `R_` | Old-Txn |
 | 3 | -- | -- |  | CR |  | Fund |
-| 4 | FAILED | REFUNDPENDING |  |  |  | Refund Okay |
+| 4 | FAILED | REFUNDCOMPLETED\|REFUNDED\|REFUNDPENDING |  |  |  | Refund Okay |
 | 5 | SUCCESS | SUCCESS |  |  |  | Success Okay |
 | 6 | TIMEOUT | UNDERPROCESS |  |  |  | Okay |
 | 0 |  |  |  |  |  | Use Case Not Defined |

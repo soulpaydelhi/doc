@@ -5,9 +5,9 @@ Source: [`reconciliation/vendors/airtel/rules/cr_dr_status.py`](../../../../reco
 
 | rule_order | cr | dr | remarks | status |
 | --- | --- | --- | --- | --- |
-| 1 | -- | Dr | okay|success okay | Success Dr |
+| 1 | -- | Dr | okay\|success okay | Success Dr |
 | 2 | -- | -- | e-kyc | E-kyc |
-| 3 | -- | -- | not-hits|old-txn | Old-Txn/Not-Hits |
+| 3 | -- | -- | not-hits\|old-txn | Not-Hits/Old-Txn |
 | 4 | Cr | Dr | * | Refund Cr |
 | 0 | * | * | * | Use Case Not Defined |
 
