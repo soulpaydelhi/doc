@@ -7,7 +7,7 @@ Source: [`reconciliation/vendors/qr/rules/payu_remarks.py`](../../../../reconcil
 | --- | --- | --- | --- | --- |
 | 1 | CAPTURED | -- | 2 | Manual |
 | 2 | !=CAPTURED | -- |  | Failed |
-| 3 | CAPTURED | ACCEPTED|PENDING |  | QR All Accepted |
+| 3 | CAPTURED | ACCEPTED\|PENDING |  | QR All Accepted |
 | 0 |  |  |  | Use Case Not Defined |
 
 Default remark applies when no rule matches.
