@@ -10,6 +10,7 @@ Source: [`reconciliation/vendors/a2z/rules/cr_dr_status.py`](../../../../reconci
 | 3 | -- | Dr | refund okay | Refund Cr Pending |
 | 4 | -- | Dr | success okay | Success Debit |
 | 5 | Cr | -- | partial refunded | Partial Refunded Cr |
+| 6 | Cr | -- | old-txn\|refund okay | Refund Cr |
 | 0 | * | * | * | Use Case Not Defined |
 
 **Default:** `rule_order` 0 applies when no rule matches (`Use Case Not Defined`). Remark sets are matched case-insensitively.
