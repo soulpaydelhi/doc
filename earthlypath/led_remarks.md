@@ -7,7 +7,8 @@ Source: [`reconciliation/vendors/earthlypath/rules/led_remarks.py`](../../../../
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | FAILED | REFUNDCOMPLETED\|REFUNDED\|REFUNDPENDING |  |  |  |  | Refund Okay |
 | 2 | SUCCESS | SUCCESS |  |  |  |  | Success Okay |
-| 3 | -- | -- |  | Payment Request | CREDIT |  | Fund |
+| 3 | PENDING | HOLD\|IN PROCESS\|IN-PROCESS\|INITIATED\|INPROCESS\|PENDING\|UNDERPROCESS |  |  |  |  | Okay |
+| 4 | -- | -- |  | Payment Request | CREDIT |  | Fund |
 | 0 |  |  |  |  |  |  | Use Case Not Defined |
 
 **Default:** `rule_order` 0 applies when no rule matches (`Use Case Not Defined`).

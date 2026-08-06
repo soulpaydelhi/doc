@@ -7,7 +7,7 @@ Source: [`reconciliation/vendors/earthlypath/rules/cr_dr_status.py`](../../../..
 | --- | --- | --- | --- | --- |
 | 1 | Cr | Dr | * | Refund Cr |
 | 2 | -- | Dr | refund okay | Refund Cr Pending |
-| 3 | -- | Dr | success okay | Success Dr |
+| 3 | -- | Dr | okay\|success okay | Success Dr |
 | 4 | -- | -- | * | Not-Hits/Old-Txn |
 | 0 | * | * | * | Use Case Not Defined |
 
